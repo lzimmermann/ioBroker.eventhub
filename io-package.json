@@ -1,0 +1,82 @@
+{
+	"common": {
+		"name": "eventhub",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Azure Eventhub Connector",
+		"titleLang": {
+			"en": "Azure Eventhub Connector",
+			"de": "Azure Eventhub Connector",
+			"ru": "Azure Eventhub Connector",
+			"pt": "Azure Eventhub Connector",
+			"nl": "Azure Eventhub Connector",
+			"fr": "Azure Eventhub Connector",
+			"it": "Azure Eventhub Connector",
+			"es": "Azure Eventhub Connector",
+			"pl": "Azure Eventhub Connector",
+			"zh-cn": "Azure Eventhub Connector"
+		},
+		"desc": {
+			"en": "eventhub",
+			"de": "eventhub",
+			"ru": "eventhub",
+			"pt": "eventhub",
+			"nl": "eventhub",
+			"fr": "eventhub",
+			"it": "eventhub",
+			"es": "eventhub",
+			"pl": "eventhub",
+			"zh-cn": "eventhub"
+		},
+		"authors": [
+			"larsz <lzimmermann@live.de>"
+		],
+		"keywords": [
+			"azure eventhub"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "eventhub.jpg",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/lzimmermann/ioBroker.eventhub/main/admin/eventhub.jpg",
+		"readme": "https://github.com/lzimmermann/ioBroker.eventhub/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "messaging",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.1.13"
+			}
+		]
+	},
+	"native": {
+		"Connection string–primary key": ""
+	},
+	"objects": [],
+	"instanceObjects": []
+}

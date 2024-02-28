@@ -1,0 +1,11 @@
+{
+	"i18n": true,
+	"type": "panel",
+	"items": {
+		"Connection string–primary key": {
+			"type": "text",
+			"label": "Connection string–primary key",
+			"newLine": true
+		}
+	}
+}
